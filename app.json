@@ -8,18 +8,10 @@
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.natakaremote",
-      "usesCleartextTraffic": true,
-      "permissions": [
-        "INTERNET"
-      ]
+      "permissions": ["INTERNET"]
     },
     "plugins": [
       "expo-dev-client"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "b1aab822-1129-4307-a2e4-ab2822e3aadf"
-      }
-    }
+    ]
   }
 }

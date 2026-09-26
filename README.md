@@ -63,6 +63,12 @@ npx expo start --dev-client
 
 The phone and PC should be on the same local network for the easiest development-server connection.
 
+## Features
+
+- **Saved TVs** — every IP you successfully connect to is remembered (up to 5, most-recent-first) and shown as chips under the connect bar. Tap a chip to fill the IP field; long-press a chip to remove it.
+- **Quick-launch apps** — a scrollable "APPS" row launches Netflix, YouTube, Prime Video, Disney+, and Spotify directly via `monkey -p <package> -c android.intent.category.LAUNCHER 1`. The package names in `App.js` (`APPS` constant) target standard Android; edit them if your box runs an Android TV/Google TV build with different package names.
+- **Swipe D-pad** — drag anywhere inside the D-pad circle to move focus, instead of tapping the small arrow buttons.
+
 ## ADB connection
 
 The TV must expose wireless ADB on TCP 5555. Enter its LAN IP in the app and tap CONNECT.
