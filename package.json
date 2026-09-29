@@ -1,28 +1,10 @@
 {
-  "name": "nataka-remote",
+  "name": "natakaremote",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "android:device": "expo run:android --device",
-    "prebuild": "expo prebuild",
-    "prebuild:clean": "expo prebuild --clean",
-    "eas:dev": "eas build --platform android --profile development"
-  },
-  "dependencies": {
-    "@react-native-async-storage/async-storage": "2.2.0",
-    "babel-preset-expo": "~57.0.0",
-    "buffer": "^6.0.3",
-    "expo": "~57.0.1",
-    "expo-dev-client": "~57.0.19",
-    "node-forge": "^1.4.0",
-    "react": "19.2.3",
-    "react-native": "0.86.3",
-    "react-native-get-random-values": "~1.11.0",
-    "react-native-safe-area-context": "~5.7.0",
-    "react-native-tcp-socket": "^6.4.3"
-  },
-  "devDependencies": {}
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
